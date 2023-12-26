@@ -4,6 +4,13 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div class="wrapper">
+    <h1>Hello, I'm in App.vue</h1>
     <HelloWorld msg="You did it!" />
   </div>
 </template>
+
+<style scoped>
+h1 {
+  color: purple;
+}
+</style>
